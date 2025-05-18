@@ -24,7 +24,7 @@ A modern, responsive React web app to discover, view, and explore exercises tail
 - **Framer Motion** for entrance & hover animations  
 - **React Router** for client-side routing  
 - **RapidAPI** (ExerciseDB & YouTube Search API)  
-- **Local JSON Fallback** (`src/data/exercises.json`)  
+- **Local JSON Fallback** (`./exercises.json`)  
 - **ESLint + Prettier** (recommended)  
 
 ---
