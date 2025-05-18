@@ -1,12 +1,39 @@
-# React + Vite
+# RepPulse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React web app to discover, view, and explore exercises tailored to your goals. RepPulse integrates with ExerciseDB (via RapidAPI) and YouTube Search API to give you step-by-step instructions, high-quality gifs, and related workout videos—all with a smooth, animated UI and offline fallback.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Search Exercises** by name, target muscle, equipment, or body part  
+- **Filter & Scroll** through exercise categories with a horizontal scrollbar  
+- **Exercise Detail** page with animated GIF, description, and key info (body part, target muscle, equipment)  
+- **Embedded YouTube Videos** for each exercise—watch top 3 demos without leaving the page  
+- **Similar Exercises** by target muscle and by equipment  
+- **Offline Fallback**: if the API rate-limits you (429/403) or fails, we load from a local `exercises.json` copy  
+- **Smooth Animations** using Framer Motion  
+- **Mobile-first & Responsive** layout with MUI’s Grid and Box components  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Tech Stack
+
+- **React** (Vite)  
+- **Material-UI (MUI)** for components & styling  
+- **Framer Motion** for entrance & hover animations  
+- **React Router** for client-side routing  
+- **RapidAPI** (ExerciseDB & YouTube Search API)  
+- **Local JSON Fallback** (`src/data/exercises.json`)  
+- **ESLint + Prettier** (recommended)  
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/Phaham/RepPulse.git
+   cd RepPulse
+
+
